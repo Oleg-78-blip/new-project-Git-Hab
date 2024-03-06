@@ -1,0 +1,173 @@
+@media (max-width:1400px) {
+    .info-block {
+        position: relative;
+    }
+
+    .left-block,
+    .right-block {
+        gap: 146px;
+    }
+
+    .left-block p {
+        margin-right: 50px;
+    }
+
+    .right-block p {
+        padding: 0 0 40px 120px;
+        font-size: 16px;
+    }
+   
+    .right-block {
+        position: absolute;
+        top: 15%;
+        bottom: 0%;
+    }
+}
+
+@media (max-width:1350px) {
+    .our-contacts {
+        gap: 15%;
+    }
+}
+
+@media (max-width:1270px) {
+    .page-top__flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bg-video::before {
+        height: 10px;
+    }
+}
+
+@media (max-width:1220px) {
+    .bg-video span {
+        padding-left: 60px;
+    }
+
+    .bg-video img {
+        top: 60%;
+    }
+
+    .block-flex {
+        display: flow-root;
+        margin-bottom: 8px;
+    }
+
+    .column {
+        flex-direction: row;
+        max-width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .ecllipse img {
+        height: 290px;
+    }
+
+    .inline {
+        max-width: 1080px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .black-wrap p,
+    .black-wrap img {
+        display: none;
+    }
+
+    .bottom-black {
+        display: none;
+    }
+}
+
+@media (max-width:1100px) {
+    .superfast {
+        display: block;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .circle {
+        margin: 0 auto 50px;
+        top: 31px;
+        border: 2px solid var(--color-3);
+        border-radius: 50%;
+
+    }
+}
+
+@media (max-width:1000px) {
+
+    .page-top__info h1{
+        font-size: 60px;
+    } 
+    
+    .bg-video {
+        padding-top: 50%;
+    }
+
+    .logo-video,
+    .bg-video p {
+        display: none;
+    }
+
+    .video-text {
+        bottom: 0px;
+    }
+
+    .our-contacts {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .video-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding-left: 0;
+    }
+
+    .grid-block {
+        margin-bottom: 40px;
+    }
+
+    .grid-block p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .grid-block span {
+        font-family: Poppins, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width:750px) {
+    .ecllipse img {
+        height: 200px;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .width-lines {
+        padding: 0;
+        text-align: center;
+    }
+
+    .block-images {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:550px) {
+    .block-images {
+        gap: 15px;
+    }
+}
+
+@media (max-width:600px) {}
